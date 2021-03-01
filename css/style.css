@@ -12,7 +12,7 @@ a {
 }
 .container {
   display: block;
-  width: 100%;
+  margin: 0 auto;
 }
 .header-top {
   display: flex;
@@ -24,32 +24,25 @@ a {
   padding-bottom: 40px;
   margin: 0 auto;
 }
-.header-menu__list {
-  display: flex;
-}
-.header-menu__item {
-  list-style: none;
-}
-.header__logo-link {
+.logo {
   margin-right: 108px;
   text-decoration: none;
 }
-.header__account {
-  justify-self: flex-end;
+.user {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
-.header__logo-link {
-  font-family: "Luckiest Guy";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+.user__avatar {
+  border-radius: 80%;
+  margin-right: 18px;
+}
+.user__name {
+  font-family: "Mulish";
+  font-size: 14px;
   color: #333333;
 }
-.logo-link__word-tour {
-  color: #ec1f46;
-}
-.search-form__input {
+.search__input {
   width: 285px;
   height: 40px;
   padding: 12px 0 13px 32px;
@@ -63,7 +56,7 @@ a {
   line-height: 15px;
   color: #333333;
 }
-.search-form_button {
+.search__button {
   width: 65px;
   height: 40px;
   background-color: #ec1f46;
@@ -71,15 +64,25 @@ a {
   border-radius: 0px 6px 6px 0px;
   cursor: pointer;
 }
-.header__account {
+.header-menu {
+  width: 100%;
+  background-color: #0a223d;
+}
+.header-menu__list {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  max-width: 950px;
+  padding: 31px 0 31px 0;
+  margin: 0 auto;
 }
-.account__image {
-  margin-right: 18px;
+.header-menu__item {
+  list-style: none;
 }
-.account__name {
+.header-menu__link {
   font-family: "Mulish";
+  font-weight: bold;
   font-size: 14px;
-  color: #333333;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #fff;
 }
