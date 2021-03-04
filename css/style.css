@@ -556,7 +556,15 @@ template {
 
 @media (max-width: 480px) {
   .container {
-    max-width: 280px;
+    max-width: 87%;
+  }
+  .menu__button {
+    width: 16px;
+    height: 15px;
+  }
+  .menu__button__line {
+    width: 16px;
+    height: 1.36px;
   }
 }
 /*# sourceMappingURL=style.css.map */
