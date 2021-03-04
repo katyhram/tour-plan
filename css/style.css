@@ -557,6 +557,7 @@ template {
 @media (max-width: 480px) {
   .container {
     max-width: 87%;
+    max-height: 70px;
   }
   .menu__button {
     width: 16px;
