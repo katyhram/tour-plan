@@ -50,7 +50,11 @@
         height: 1px
         background-color: $text-color
   .stars
-    flex-basis: content
+    display: flex
+    flex-wrap: nowrap
+    width: 40px
+    &-img
+      margin-right: 2px
   .hotel
     &-name
       flex-basis: 100%

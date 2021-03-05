@@ -666,8 +666,15 @@ template {
     background-color: #333333;
   }
   .stars {
-    -ms-flex-preferred-size: content;
-        flex-basis: content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 40px;
+  }
+  .stars-img {
+    margin-right: 2px;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
