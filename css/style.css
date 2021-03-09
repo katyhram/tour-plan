@@ -18,6 +18,10 @@ img {
   max-width: 100%;
 }
 
+.booking {
+  font-family: 'Nunito';
+}
+
 .navbar {
   background-color: #ffffff;
 }
