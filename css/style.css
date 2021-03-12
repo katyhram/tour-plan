@@ -1040,7 +1040,7 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel__slide {
     width: 590px;
   }
   .hotel-slider__image {
@@ -1048,6 +1048,9 @@ template {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .hotel__slider {
+    width: 590px;
   }
 }
 
@@ -1103,6 +1106,16 @@ template {
   }
   .map {
     width: 340px;
+  }
+  .reviews {
+    padding-bottom: 60px;
+  }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
   }
   .reviews-slider__item {
     max-width: 580px;
@@ -1199,6 +1212,9 @@ template {
   .map {
     width: 100%;
   }
+  .newsletter {
+    padding: 62px 0 63px 0;
+  }
   .newsletter-wrapper {
     max-width: 576px;
     width: 92%;
@@ -1210,8 +1226,20 @@ template {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .newsletter-title__strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .newsletter__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+  }
   .reviews-slider__item {
-    padding: 0 30px 30px;
+    padding: 0 60px 30px 64px;
   }
   .reviews-slider__item:after, .reviews-slider__item:before {
     display: none;
@@ -1252,11 +1280,24 @@ template {
   .subscribe {
     width: 100%;
   }
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .reviews-slider__item {
+    padding: 0 32px 32px 32px;
+  }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
-    max-width: 87%;
+    max-width: 86%;
   }
   .navbar-bottom {
     display: none;
@@ -1265,8 +1306,17 @@ template {
     padding-top: 0;
     padding-bottom: 40px;
   }
-  .slider {
+  .hotel__slider {
     height: 180px;
+  }
+}
+
+@media (max-width: 440px) {
+  .reviews__title {
+    display: block;
+    margin: auto;
+    max-width: 245px;
+    margin-bottom: 42px;
   }
 }
 /*# sourceMappingURL=style.css.map */
