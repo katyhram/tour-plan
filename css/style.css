@@ -809,7 +809,7 @@ template {
 .newsletter {
   position: relative;
   padding: 78px 0 67px 0;
-  background-image: url(../img/newsletter-bg.jpg);
+  background-image: url("../img/newsletter-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -882,6 +882,7 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
+  color: #BDBDBD;
 }
 
 .subscribe__button {
@@ -893,11 +894,17 @@ template {
   border: none;
   background-color: #EC1F46;
   color: #fff;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .parallax-window {
-  min-height: 100px;
-  background: transparent;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .reviews {
