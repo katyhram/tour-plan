@@ -291,10 +291,10 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-wrapper">
+      <div class="footer__wrapper">
         <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo">
-        <div class="footer__list">
-          <h3 class="footer-title">All Categories</h3>
+        <div class="footer__list footer__сategories">
+          <h3 class="footer__title">All Categories</h3>
           <ul class="footer__ul">
             <li class="footer__item"><a href="#" class="footer__link">All Deals</a></li>
             <li class="footer__item"><a href="#" class="footer__link">Hotels</a></li>
@@ -307,8 +307,8 @@
           </ul>
         </div>
         <!-- ./footer__list -->
-        <div class="footer__list">
-          <h3 class="footer-title">Additional information</h3>
+        <div class="footer__list footer__additional">
+          <h3 class="footer__title">Additional information</h3>
           <ul class="footer__ul">
             <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
             <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
@@ -320,16 +320,16 @@
         </div>
         <!-- ./footer__list -->
         <div class="footer__social-network">
-          <h3 class="footer__title"></h3>
+          <h3 class="footer__title footer__title--inline">Social Network</h3>
           <div class="footer__social-links">
-            <a href="#" class="footer__link"><img src="img/fb.svg" alt="Icon: Facebook" class="footer__icon"></a>
-            <a href="#" class="footer__link"><img src="img/yt.svg" alt="Icon: YouTube" class="footer__icon"></a>
-            <a href="#" class="footer__link"><img src="img/inst.svg" alt="Icon: Instagram" class="footer__icon"></a>
+            <a href="#" class="footer__link"><img src="img/fb.svg" alt="Icon: Facebook"></a>
+            <a href="#" class="footer__link"><img src="img/yt.svg" alt="Icon: YouTube"></a>
+            <a href="#" class="footer__link"><img src="img/inst.svg" alt="Icon: Instagram"></a>
           </div>
          <!-- ./footer__social-links -->
         </div>
         <!-- ./footer__social-network -->
-        <div class="footer__list">
+        <div class="footer__list footer__legal">
           <h3 class="footer__title">Legal Information</h3>
           <ul class="footer__ul">
             <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
@@ -340,13 +340,42 @@
         </div>
         <!-- ./footer__list -->
         <div class="footer__contact-details">
-          <h3 class="footer__title">Contact Details</h3>
+          <h3 class="footer__title footer__title--mb-3">Contact Details</h3>
           <p class="footer__text">Feel free to contact us by phone, email or by our contact form</p>
           <ul class="footer__ul">
-            <li class="footer__item"><img src="" alt=""></li>
-            <li class="footer__item"><img src="" alt=""></li>
-            <li class="footer__item"><img src="" alt=""></li>
+            <li class="footer__item footer__item--mb-2">
+              <div class="footer__icon-wrapper">
+                <img class="footer__icon" src="img/map-icon.svg" alt="Icon: map">
+              </div>
+              9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
+            </li>
+            <li class="footer__item footer__item--mb-2">
+              <div class="footer__icon-wrapper">
+                <img class="footer__icon" src="img/phone-call-icon.svg" alt="Icon: phone">
+              </div>
+              Tel (business hours) : 269 1500<br>
+              Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>
+              Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00
+              pm)
+            </li>
+            <li class="footer__item footer__item--mb-2">
+              <div class="footer__icon-wrapper">
+                <img class="footer__icon" src="img/email-icon.svg" alt="Icon: email">
+              </div>
+              cherly.lawson@example.com
+            </li>
           </ul>
+        </div>
+        <!-- /.footer__contact-details -->
+        <div class="footer__contact-form">
+          <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
+          <form action="#" class="footer__form">
+            <input type="text" class="input footer__input" placeholder="Your Full Name*">
+            <input type="text" class="input footer__input" placeholder="Phone Number*">
+            <textarea cols="30" rows="10" class="footer__message" placeholder="Message"></textarea>
+            <button class="button footer__button">Send</button>
+            <span class="footer__info">* Required Fields</span>
+          </form>
         </div>
       </div>
     </div>
