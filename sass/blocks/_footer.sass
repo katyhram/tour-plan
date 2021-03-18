@@ -5,7 +5,7 @@
   padding-bottom: 46px
   &__wrapper
     display: grid
-    grid-template-columns: repeat(4, minmax(min-content, 1fr))
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) max-content minmax(min-content, 1fr)
     grid-gap: 20px
     grid-auto-rows: minmax(40px, min-content)
     align-items: start
@@ -15,6 +15,9 @@
     align-self: stretch
   &__сategories
     grid-row: 1 / 4
+    // justify-self: center
+  &__legal
+    justify-self: end
   &__social
     &-links
       display: flex
@@ -79,14 +82,16 @@
     margin-bottom: 15px
     flex-basis: 48%
   &__message
+    max-height: 123px
     background-color: #fff
     border-radius: 4px
     padding: 18px 23px
     border: none
     flex-basis: 100%
     margin-bottom: 23px
+    resize: none
   &__button
-    min-width: 160px
+    max-width: 160px
     min-height: 50px
     padding: 18px
     font-style: normal
@@ -103,7 +108,7 @@
     font-weight: bold
     font-size: 12px
     line-height: 15px
-    color: $footer-text-color
+    color: #E0E0E0
     grid-column: 4 / 5
     align-self: center
     justify-self: end
