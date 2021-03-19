@@ -80,7 +80,6 @@ img {
 
 .navbar-menu__item--mobile--visible {
   display: none;
-  overflow: scroll;
 }
 
 .logo {
@@ -1389,6 +1388,12 @@ template {
       align-self: center;
   -ms-grid-column-align: end;
       justify-self: end;
+}
+
+@media (max-height: 551px) {
+  .navbar-bottom--visible {
+    overflow: scroll;
+  }
 }
 
 @media (max-width: 1200px) {
