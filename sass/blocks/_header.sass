@@ -27,6 +27,11 @@
       text-transform: uppercase
       font-size: 14px
       line-height: 18px
+    &__item
+      &--mobile
+        &--visible
+          display: none
+          overflow: scroll
 .logo
   width: 177px
   height: auto
@@ -38,7 +43,7 @@
   overflow: hidden
   border-radius: 6px
   &__input
-    width: 350px
+    max-width: 350px
     height: 100%
     padding-left: 23px
     padding-right: 75px
