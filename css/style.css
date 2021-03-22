@@ -1440,13 +1440,14 @@ template {
   top: 50%;
   left: 50%;
   max-width: 478px;
+  max-height: 500px;
   padding: 33px 88px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-color: #0A223D;
   color: #fff;
   border-radius: 8px;
-  z-index: 101;
+  z-index: 110;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 0.2s;
@@ -1497,6 +1498,12 @@ template {
 
 @media (max-height: 551px) {
   .navbar-bottom--visible {
+    overflow: scroll;
+  }
+}
+
+@media (max-height: 500px) {
+  .modal__dialog--visible {
     overflow: scroll;
   }
 }
@@ -1690,6 +1697,35 @@ template {
     -ms-grid-column-span: 1;
     grid-column: 6 / 7;
     margin-top: 55px;
+  }
+}
+
+@media (max-width: 955px) {
+  .modal__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .modal__dialog {
+    padding: 15px 58px;
+  }
+  .modal__button {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  .modal__info {
+    margin-bottom: 15px;
   }
 }
 
