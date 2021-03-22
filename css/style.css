@@ -1440,7 +1440,7 @@ template {
   top: 50%;
   left: 50%;
   max-width: 478px;
-  max-height: 500px;
+  max-height: 90vh;
   padding: 33px 88px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1502,7 +1502,7 @@ template {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 510px) {
   .modal__dialog--visible {
     overflow: scroll;
   }
