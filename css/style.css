@@ -1502,7 +1502,7 @@ template {
   }
 }
 
-@media (max-height: 510px) {
+@media (max-height: 565px) {
   .modal__dialog--visible {
     overflow: scroll;
   }
