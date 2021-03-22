@@ -93,7 +93,6 @@ $mailNewslettersForm->Body = $bodyNewslettersForm;
 // Проверяем отравленность сообщения
 if ($mailNewslettersForm->send()) {
   $result = "success";
-  header('Location: thankyou.php');
 } 
 else {$result = "error";}
 
@@ -101,5 +100,6 @@ else {$result = "error";}
     $result = "error";
     $status = "Сообщение не было отправлено. Причина ошибки: {$mailNewslettersForm->ErrorInfo}";
 }
+header('Location: thankyou.php');
 }
 
