@@ -1491,6 +1491,10 @@ template {
   margin-right: 45px;
 }
 
+.hotel__button {
+  margin-top: 20px;
+}
+
 @media (max-height: 551px) {
   .navbar-bottom--visible {
     overflow: scroll;

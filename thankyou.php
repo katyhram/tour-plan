@@ -8,6 +8,7 @@
             <h1 class="hotel-name hotel-info__name">Message is sent!</h1>
           </div>
           <p class="hotel-description hotel-info__description">Our manager will contact you shortly.</p>
+         <a href="index.php"><button class="button hotel__button">Back</button></a>
         </div>
         <!-- ./hotel-info__text -->
 
