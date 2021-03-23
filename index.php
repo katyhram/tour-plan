@@ -109,7 +109,7 @@
           <span class="newsletter-title__strong">NEWSLETTER</span>
         </h2>
         <form action="send.php" class="subscribe newsletter__search" method="POST">
-          <input type="text" class="subscribe__input" placeholder="Your email address" name="email">
+          <input type="email" class="subscribe__input" placeholder="Your email address" name="email" required>
           <button class="subscribe__button">Send</button>
         </form>
       </div>

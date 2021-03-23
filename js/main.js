@@ -64,6 +64,15 @@ $(document).on('keydown', function(e) {
 });
 
 // Обработка форм
+$('.subscribe').validate({
+    errorClass: "error",
+    messages: {
+    email: {
+      required: "We need your email address to contact you",
+      email: "Your email address must be in the format of name@domain.com"
+    }, 
+  },
+});
 
 $('.form').each(function() {
   $(this).validate({
@@ -84,6 +93,26 @@ $('.form').each(function() {
 });
 });
 
+// Курсор в начале
+$.fn.setCursorPosition = function(pos) {
+  if ($(this).get(0).setSelectionRange) {
+    $(this).get(0).setSelectionRange(pos, pos);
+  } else if ($(this).get(0).createTextRange) {
+    var range = $(this).get(0).createTextRange();
+    range.collapse(true);
+    range.moveEnd('character', pos);
+    range.moveStart('character', pos);
+    range.select();
+  }
+};
+$(".modal__input--phone").click(function(){
+  $(this).setCursorPosition(3);
+}).mask("+7(999) 999-9999");
+
+$(".footer__input--phone").click(function(){
+  $(this).setCursorPosition(3);
+}).mask("+7(999) 999-9999");
+
 // Маски
 $(".modal__input--phone").mask("+7(999) 999-99-99");
 $(".footer__input--phone").mask("+7(999) 999-99-99");
@@ -92,4 +121,9 @@ $(".footer__input--phone").mask("+7(999) 999-99-99");
 $( '.form' ).each(function(){
     this.reset();
 });
+
+$( '.subscribe' ).each(function(){
+    this.reset();
+});
+
 });
