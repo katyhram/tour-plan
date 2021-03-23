@@ -51,6 +51,7 @@ img {
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .info {
@@ -59,6 +60,11 @@ img {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
+}
+
+.invalid {
+  color: #EC1F46;
+  margin-right: auto;
 }
 
 .navbar {
@@ -1329,6 +1335,10 @@ template {
 }
 
 .footer__input {
+  width: 100%;
+}
+
+.footer__input-group {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
@@ -1440,7 +1450,7 @@ template {
   top: 50%;
   left: 50%;
   max-width: 478px;
-  max-height: 90vh;
+  max-height: 93vh;
   padding: 33px 88px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1479,17 +1489,22 @@ template {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__message {
   width: 100%;
   min-width: 123px;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__button {
+  margin-top: 15px;
   margin-right: 45px;
+}
+
+.modal__info {
+  margin-top: 15px;
 }
 
 .hotel__button {
@@ -1502,7 +1517,7 @@ template {
   }
 }
 
-@media (max-height: 565px) {
+@media (max-height: 645px) {
   .modal__dialog--visible {
     overflow: scroll;
   }
@@ -1535,9 +1550,9 @@ template {
     -ms-grid-column-align: center;
         justify-self: center;
   }
-  .footer__input {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+  .footer__input-group {
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
   }
 }
 
@@ -1623,7 +1638,7 @@ template {
         grid-template-columns: minmax(162px, 1fr) minmax(min-content, 1fr) max-content max-content minmax(min-content, 1fr) minmax(min-content, 1fr);
     grid-gap: 40px 20px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
   }
@@ -1926,7 +1941,7 @@ template {
     width: 48%;
     height: 255px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }

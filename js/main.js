@@ -63,4 +63,28 @@ $(document).on('keydown', function(e) {
     closeModal(event);
 });
 
+// Обработка форм
+
+$('.form').each(function() {
+  $(this).validate({
+    errorClass: "invalid",
+    messages: {
+    name: {
+      required: "Please specify your name",
+      minlength: "Your name shouldn't be shorter than two letters"
+    },
+    phone: {
+      required: "We need your phone to contact you",
+    },
+    email: {
+      required: "We need your email address to contact you",
+      email: "Your email address must be in the format of name@domain.com"
+    }, 
+  },
+});
+});
+
+// Маски
+$(".modal__input--phone").mask("+7(999) 999-99-99");
+$(".footer__input--phone").mask("+7(999) 999-99-99");
 });
