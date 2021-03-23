@@ -87,4 +87,9 @@ $('.form').each(function() {
 // Маски
 $(".modal__input--phone").mask("+7(999) 999-99-99");
 $(".footer__input--phone").mask("+7(999) 999-99-99");
+
+// Очистка форм
+$( '.form' ).each(function(){
+    this.reset();
+});
 });
