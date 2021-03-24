@@ -27,7 +27,7 @@ $bodyNewslettersForm = "
 ";
 
 // Настройки PHPMailer
-if (($name != '') && ($phone != '') && ($message != '')) {
+if (($name != '') && ($phone != '')) {
 $mailFooterForm = new PHPMailer\PHPMailer\PHPMailer();
 try {
     $mailFooterForm->isSMTP();   

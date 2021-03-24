@@ -126,9 +126,7 @@
       <!-- /.modal -->
       <script src="js/jquery-3.6.0.min.js"></script>
       <script src="js/swiper-bundle.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
-        type="text/javascript"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
       <script src="js/jquery.validate.min.js"></script>
       <script src="js/aos.js"></script>
       <script src="js/main.js"></script>

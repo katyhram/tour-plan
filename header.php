@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best tour plan | Hotel Booking</title>
+  <link rel="shortcut icon" href="plane-icon.ico" type="image/x-icon">
+  <link rel="icon" href="plane-icon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
     rel="stylesheet">
@@ -66,7 +68,7 @@
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotels</a></li>
           <li class="navbar-menu__item"><a href="activities.php" class="navbar-menu__link">Activities</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotel Day Packages</a></li>
-          <li class="navbar-menu__item"><a href="restaurants.php" class="navbar-menu__link">Restaurants</a></li>
+          <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Restaurants</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Events</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Rodrigues</a></li>
         </ul>

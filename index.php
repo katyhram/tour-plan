@@ -155,7 +155,7 @@
             <div class="swiper-slide">
               <div class="reviews-slider__item">
                 <div class="reviews-slider__profile">
-                  <img src="img/reviews-avatar-2.jpg" alt="Photo: John Brown" class="reviews-slider__avatar">
+                  <img src="img/reviews-avatar-2-1.jpg" alt="Photo: John Brown" class="reviews-slider__avatar">
                   <h3 class="reviews-slider__username">John Brown</h3>
                   <span class="reviews-slider__date">Stayed 25 Jan, 2019</span>
                   <div class="reviews-slider__rating">
@@ -200,25 +200,25 @@
           <div class="card activities__card" data-aos="fade-up" data-aos-delay="100">
             <img src="img/activity-1.jpg" alt="The curious corner of chamarel" class="card__image">
             <h3 class="card__title">The curious corner of chamarel</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- ./card -->
           <div class="card activities__card" data-aos="fade-up" data-aos-delay="300">
             <img src="img/activity-2.jpg" alt="Gymkhana club golf course" class="card__image">
             <h3 class="card__title">Gymkhana club golf course</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- ./card -->
           <div class="card activities__card" data-aos="fade-up" data-aos-delay="500">
             <img src="img/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image">
             <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- ./card -->
           <div class="card activities__card" data-aos="fade-up" data-aos-delay="700">
             <img src="img/activity-4.jpg" alt="The blue marine discovery quest" class="card__image">
             <h3 class="card__title">The blue marine discovery quest</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <!-- ./card -->
         </div>
