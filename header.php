@@ -11,10 +11,8 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css" id="aos-css-file">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=6aa52dcb-d532-4140-a77d-f17f9ee87b64&lang=ru_RU"
-    type="text/javascript">
-    </script>
 </head>
 
 <body>
@@ -68,7 +66,7 @@
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotels</a></li>
           <li class="navbar-menu__item"><a href="activities.php" class="navbar-menu__link">Activities</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Hotel Day Packages</a></li>
-          <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Restaurants</a></li>
+          <li class="navbar-menu__item"><a href="restaurants.php" class="navbar-menu__link">Restaurants</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Events</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Rodrigues</a></li>
         </ul>

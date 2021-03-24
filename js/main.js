@@ -65,7 +65,8 @@ $(document).on('keydown', function(e) {
 
 // Обработка форм
 $('.subscribe').validate({
-    errorClass: "error",
+  errorElement: "em",
+    errorClass: "subscribe-error",
     messages: {
     email: {
       required: "We need your email address to contact you",
@@ -76,7 +77,8 @@ $('.subscribe').validate({
 
 $('.form').each(function() {
   $(this).validate({
-    errorClass: "invalid",
+    errorElement: "em",
+    errorClass: "input-invalid",
     messages: {
     name: {
       required: "Please specify your name",
@@ -125,5 +127,21 @@ $( '.form' ).each(function(){
 $( '.subscribe' ).each(function(){
     this.reset();
 });
+
+// Анимация
+AOS.init();
+
+if (window.innerWidth < 992) {
+
+  function removeAos() {
+    var elem = document.getElementById('aos-css-file');
+    elem.parentNode.removeChild(elem);
+    return false;
+  }
+  removeAos();
+
+}
+
+AOS.init();
 
 });

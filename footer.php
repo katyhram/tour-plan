@@ -130,6 +130,7 @@
       <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
         type="text/javascript"></script>
       <script src="js/jquery.validate.min.js"></script>
+      <script src="js/aos.js"></script>
       <script src="js/main.js"></script>
       </body>
       

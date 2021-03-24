@@ -31,6 +31,14 @@ img {
   height: 50px;
 }
 
+.input-invalid {
+  border: 2px solid #EC1F46;
+}
+
+input.subscribe-error {
+  border: 2px solid #EC1F46;
+}
+
 .message {
   max-height: 123px;
   background-color: #fff;
@@ -62,13 +70,15 @@ img {
   color: #E0E0E0;
 }
 
-.invalid {
+em.input-invalid {
   color: #EC1F46;
   margin-right: auto;
+  border: none;
 }
 
-.error {
+em.subscribe-error {
   color: #EC1F46;
+  border: none;
   z-index: 110;
 }
 
@@ -125,6 +135,10 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
+}
+
+.navbar-menu__link:hover {
+  color: #EC1F46;
 }
 
 .navbar-menu__item--mobile--visible {
@@ -938,6 +952,10 @@ template {
   border-radius: 4px;
 }
 
+.subscribe__input:focus {
+  border: 2px solid #008FDF;
+}
+
 .subscribe__button {
   position: absolute;
   min-width: 65px;
@@ -1344,6 +1362,10 @@ template {
   width: 100%;
 }
 
+.footer__input:focus {
+  border: 2px solid #008FDF;
+}
+
 .footer__input-group {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
@@ -1498,6 +1520,10 @@ template {
   margin-top: 15px;
 }
 
+.modal__input:focus {
+  border: 2px solid #008FDF;
+}
+
 .modal__message {
   width: 100%;
   min-width: 123px;
@@ -1637,6 +1663,8 @@ template {
   .card {
     width: 340px;
     height: 250px;
+    -webkit-animation: none;
+            animation: none;
   }
   .footer__wrapper {
     -ms-grid-columns: minmax(162px, 1fr) minmax(min-content, 1fr) max-content max-content minmax(min-content, 1fr) minmax(min-content, 1fr);
@@ -1722,6 +1750,10 @@ template {
 }
 
 @media (max-width: 955px) {
+  .card {
+    -webkit-animation: none;
+            animation: none;
+  }
   .modal__form {
     display: -webkit-box;
     display: -ms-flexbox;
