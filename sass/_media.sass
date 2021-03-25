@@ -31,6 +31,9 @@
     &__input
       &-group
         flex-basis: 49%
+  .package
+    &__information
+      min-height: 250px
 @media (max-width: 992px)
   .container, .newsletter-wrapper
     max-width: 700px
@@ -107,7 +110,7 @@
         max-height: 100%
         padding: 27px 11px 12px 22px
     &__information
-      max-height: 100%
+      min-height: 225px
       padding: 15px 11px 12px 16px
       &--1
         padding: 0
@@ -500,52 +503,17 @@
       font-size: 18px
       margin-top: 0
       margin-bottom: 45px
-@media (max-width: 602px)
-  .package
     &__block
-      &--1
-        max-height: 411px
-    &__all
-      &-info
-        min-height: 100%
+      max-height: 400px
     &__information
+      min-height: 200px
       &--1
-        min-height: 90%
-    &__bg
-      &-image
-        width: 100%
+        max-height: 100%
     &__description
       font-size: 13px
-      overflow: scroll
-    &__item
-      font-size: 11px
     &__button
-      padding: 0
-      width: 90px
-      min-height: 30px
       font-size: 12px
-    &__old
-      &-price
-        font-size: 12px
-    &__new
-      &-price
-        font-size: 16px
-@media (max-width: 480px)
-  .container
-    max-width: 90%
-  .hotel
-    padding-top: 0
-    padding-bottom: 40px
-    &__slider
-      height: 180px
-  .reviews
-    padding-bottom: 0
-    margin-bottom: 0
-    &-slider
-      &__text
-        text-align: left
-  .activities
-    padding-top: 0
+@media (max-width: 602px)
   .package
     &__offer
       width: 95px
@@ -593,15 +561,14 @@
           background-image: url('../img/package-4.jpg')
         &--5
           background-image: url('../img/package-5.jpg')
-    &__all
-      &-info
-        min-height: 200px
     &__information
       display: flex
       flex-direction: row
       justify-content: space-between
       flex-wrap: wrap
-      min-height: 200px
+      max-height: 200px
+      &--1
+        min-height: 100%
     &__description, &__stars
       display: none
     &__bottom
@@ -616,6 +583,27 @@
         margin-bottom: 5px
     &__image
       min-height: 100px
+    &__button
+      font-size: 14px
+      width: 150px
+      height: 40px
+      padding: 5px 10px
+@media (max-width: 480px)
+  .container
+    max-width: 90%
+  .hotel
+    padding-top: 0
+    padding-bottom: 40px
+    &__slider
+      height: 180px
+  .reviews
+    padding-bottom: 0
+    margin-bottom: 0
+    &-slider
+      &__text
+        text-align: left
+  .activities
+    padding-top: 0
 @media (max-width: 400px)
   .search
     &__input

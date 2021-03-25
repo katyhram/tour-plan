@@ -6,6 +6,7 @@
     line-height: 45px
     text-align: center
     text-transform: uppercase
+    margin-top: 0
     margin-bottom: 65px
   &__wrapper
     display: grid
@@ -44,7 +45,7 @@
   &__offer
     position: absolute
     left: 0
-    top: 40px
+    top: 26px
     width: 60px
     height: 18px
     padding: 4px 9px
@@ -68,7 +69,7 @@
         background-image: url('../img/package-1.jpg')
         background-repeat: no-repeat
         background-size: cover
-        flex-basis: 108%
+        flex-basis: 111%
         max-height: 100%
         object-fit: cover
   &__image
@@ -79,15 +80,20 @@
       flex-direction: column
       justify-content: start
       width: 100%
-      padding: 47px 21px 25px 44px
+      padding: 46px 21px 30px 44px
   &__stars
-    margin-bottom: 6px
+    display: flex
+    justify-content: space-between
+    max-width: 48px
+    margin-bottom: 5px
+    &--img
   &__information
     display: flex
     flex-direction: column
     justify-content: space-between
     align-items: start
     padding: 30px 21px 25px 32px
+    min-height: 250px
     &--1
       padding: 0
       height: 100%
@@ -100,7 +106,7 @@
     font-style: normal
     font-weight: normal
     font-size: 14px
-    line-height: 160.6%
+    line-height: 160.7%
   &__ul
     padding: 0
     list-style: none
@@ -108,7 +114,7 @@
     width: 14px
     height: 14px
     &-wrapper
-      min-width: 28px
+      min-width: 30px
   &__item
     display: flex
     align-items: flex-start
@@ -118,7 +124,7 @@
     font-size: 12px
     line-height: 15px
     &--mb-1
-      margin-bottom: 11px
+      margin-bottom: 10px
   &__old
     &-price
       font-style: normal

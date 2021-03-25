@@ -98,7 +98,7 @@
             </ul>
             <!-- ./footer__license -->
             <div class="footer__pay">
-              <img src="img/pay-icons.webp" alt="Icon: pay-icons" class="footer-pay__icon">
+              <img src="img/pay-icons.webp" alt="Icon: pay-icons">
             </div>
             <!-- ./footer-pay -->
           </div>

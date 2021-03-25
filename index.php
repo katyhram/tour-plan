@@ -150,7 +150,7 @@
             <span class="package__old-price">$ 10,500</span>
             <div class="package__bottom">
               <span class="package__new-price">$ 8,500</span>
-              <button class="package__button">Book Now</button>
+              <button data-toggle="modal" class="package__button">Book Now</button>
             </div>
           </div>
         </div>
@@ -187,7 +187,7 @@
           <span class="package__old-price">$ 8,500</span>
           <div class="package__bottom">
             <span class="package__new-price">$ 3,000</span>
-            <button class="package__button">Book Now</button>
+            <button data-toggle="modal" class="package__button">Book Now</button>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@
           <span class="package__old-price">$ 10,500</span>
           <div class="package__bottom">
             <span class="package__new-price">$ 9,500</span>
-            <button class="package__button">Book Now</button>
+            <button data-toggle="modal" class="package__button">Book Now</button>
           </div>
         </div>
       </div>
@@ -259,7 +259,7 @@
           <span class="package__old-price">$ 4,500</span>
           <div class="package__bottom">
             <span class="package__new-price">$ 2,500</span>
-            <button class="package__button">Book Now</button>
+            <button data-toggle="modal" class="package__button">Book Now</button>
           </div>
         </div>
       </div>
@@ -295,7 +295,7 @@
           <span class="package__old-price">$ 6,500</span>
           <div class="package__bottom">
             <span class="package__new-price">$ 3,500</span>
-            <button class="package__button">Book Now</button>
+            <button data-toggle="modal" class="package__button">Book Now</button>
           </div>
         </div>
       </div>
