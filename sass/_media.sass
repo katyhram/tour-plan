@@ -68,6 +68,49 @@
     width: 340px
   .map
     width: 340px
+  .package
+    padding-top: 0
+    &__title
+      font-size: 30px
+      line-height: 38px
+    &__wrapper
+      display: grid
+      grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr)
+      grid-gap: 20px
+      grid-template-rows: repeat(3, min-content)
+      align-items: start
+      color: $light
+    &__block
+      max-height: 450px
+      &--1
+        grid-column: span 2
+        grid-row: 1
+      &--2
+        grid-column: 1
+        grid-row: 2
+      &--3
+        grid-column: 2
+        grid-row: 2
+      &--4
+        grid-column: 1
+        grid-row: 3
+      &--5
+        grid-column: 2
+        grid-row: 3
+    &__bg
+      &-image
+        max-height: 225px
+        &--1
+          max-height: 100%
+    &__all
+      &-info
+        max-height: 100%
+        padding: 27px 11px 12px 22px
+    &__information
+      max-height: 100%
+      padding: 15px 11px 12px 16px
+      &--1
+        padding: 0
   .reviews
     padding-bottom: 60px
     &__title
@@ -248,6 +291,31 @@
     width: 100%
   .map
     width: 100%
+  .package
+    &__block
+      max-height: 420px
+    &__bg
+      &-image
+        max-height: 200px
+        &--1
+          max-height: 100%
+    &__all
+      &-info
+        padding: 15px 11px 12px 16px
+    &__information
+      padding: 15px 11px 12px 16px
+      &--1
+        padding: 0
+    &__name
+      font-size: 16px
+      line-height: 20px
+    &__item
+      &--mb-1
+        margin-bottom: 5px
+    &__new
+      &-price
+        font-size: 20px
+        line-height: 24px
   .newsletter
     padding: 62px 0 63px 0
     &-wrapper
@@ -427,7 +495,41 @@
       grid-column: 1
       justify-self: start
       margin-top: 0
-
+  .package
+    &__title
+      font-size: 18px
+      margin-top: 0
+      margin-bottom: 45px
+@media (max-width: 602px)
+  .package
+    &__block
+      &--1
+        max-height: 411px
+    &__all
+      &-info
+        min-height: 100%
+    &__information
+      &--1
+        min-height: 90%
+    &__bg
+      &-image
+        width: 100%
+    &__description
+      font-size: 13px
+      overflow: scroll
+    &__item
+      font-size: 11px
+    &__button
+      padding: 0
+      width: 90px
+      min-height: 30px
+      font-size: 12px
+    &__old
+      &-price
+        font-size: 12px
+    &__new
+      &-price
+        font-size: 16px
 @media (max-width: 480px)
   .container
     max-width: 90%
@@ -444,6 +546,76 @@
         text-align: left
   .activities
     padding-top: 0
+  .package
+    &__offer
+      width: 95px
+      height: 30px
+      font-size: 12px
+      line-height: 15px
+      padding: 8px 12px 7px 12px
+    &__wrapper
+      grid-template-columns: 100%
+      grid-template-rows: repeat(5, 400px)
+      grid-gap: 15px
+      align-items: center
+      justify-content: center
+    &__block
+      display: flex
+      flex-direction: column
+      justify-content: start
+      align-items: start
+      &--1
+        grid-column: 1
+        grid-row: 1
+      &--2
+        grid-column: 1
+        grid-row: 2
+      &--3
+        grid-column: 1
+        grid-row: 3
+      &--4
+        grid-column: 1
+        grid-row: 4
+      &--5
+        grid-column: 1
+        grid-row: 5
+    &__bg
+      &-image
+        background-repeat: no-repeat
+        background-size: cover
+        max-height: 200px
+        object-fit: cover
+        &--2
+          background-image: url('../img/package-2.jpg')
+        &--3
+          background-image: url('../img/package-3.jpg')
+        &--4
+          background-image: url('../img/package-4.jpg')
+        &--5
+          background-image: url('../img/package-5.jpg')
+    &__all
+      &-info
+        min-height: 200px
+    &__information
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      flex-wrap: wrap
+      min-height: 200px
+    &__description, &__stars
+      display: none
+    &__bottom
+      flex-wrap: nowrap
+    &__name
+      width: 100%
+    &__ul
+      width: 100%
+    &__new
+      &-price
+        width: 100%
+        margin-bottom: 5px
+    &__image
+      min-height: 100px
 @media (max-width: 400px)
   .search
     &__input
